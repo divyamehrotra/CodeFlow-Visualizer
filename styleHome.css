@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111;
+}
+.header{
+    height: 40px;
+    background-color: rgb(101, 99, 99);
+}
+#title, .title-container {
+    color: grey;
+    font-family: Consolas,Courier,monospace;
+    font-size: 40px;
+    height: 100%;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px grey;
+    text-transform: uppercase;
+    text-align: center;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeFlow Visualizer</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1>CodeFlow Visualizer</h1>
+        </div>
+
+        <div class="bars_cont" id="bars_cont"></div>
+
+        <div class="theme">
+            <button class="btn" id="dark">
+              <i class='bx bxs-moon' ></i>
+            </button>
+        </div>
+
+        <div class="leftButtons">
+
+            <input type="range" name="Array Size" id="slider" max="150" min="5" step="5" value="10"><br>
+            <label for="slider">Array Size</label><br><br>
+            <select name="Speed" id="speed">
+                <option value="100">Slow</option>
+                <option value="50">Medium</option>
+                <option value="10">Fast</option>
+              </select><br><br>
+              <label for="speed">Speed</label><br><br>
+              <select name="" id="algo">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="heap">Heap Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+              </select><br><br>
+              <label for="algo">Algorithm</label>
+
+        </div>
+
+        <div class=" btn bottomButtons">
+
+            <button id="randomize_array_btn">Randomize Array</button>
+            <button id="sort_btn">Sort</button>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
